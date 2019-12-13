@@ -3,7 +3,7 @@
 
 namespace R5T.Nikaia
 {
-    public interface IGitExecutablePathProvider
+    public interface IGitExecutableFilePathProvider
     {
         string GetGitExecutablePath();
     }
