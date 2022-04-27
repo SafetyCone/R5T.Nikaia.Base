@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Nikaia.Base", "R5T.Nika
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Nikaia.Base.Construction", "R5T.Nikaia.Base.Construction\R5T.Nikaia.Base.Construction.csproj", "{5224790F-A2DC-40F3-AEB6-971094E3C6BD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{68AFDF66-BD0B-45AF-811F-601675F199F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{BC4D7421-741F-43C0-AA89-0404E7D76AB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +48,20 @@ Global
 		{5224790F-A2DC-40F3-AEB6-971094E3C6BD}.Release|x64.Build.0 = Release|Any CPU
 		{5224790F-A2DC-40F3-AEB6-971094E3C6BD}.Release|x86.ActiveCfg = Release|Any CPU
 		{5224790F-A2DC-40F3-AEB6-971094E3C6BD}.Release|x86.Build.0 = Release|Any CPU
+		{BC4D7421-741F-43C0-AA89-0404E7D76AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC4D7421-741F-43C0-AA89-0404E7D76AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC4D7421-741F-43C0-AA89-0404E7D76AB1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BC4D7421-741F-43C0-AA89-0404E7D76AB1}.Debug|x64.Build.0 = Debug|Any CPU
+		{BC4D7421-741F-43C0-AA89-0404E7D76AB1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BC4D7421-741F-43C0-AA89-0404E7D76AB1}.Debug|x86.Build.0 = Debug|Any CPU
+		{BC4D7421-741F-43C0-AA89-0404E7D76AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC4D7421-741F-43C0-AA89-0404E7D76AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC4D7421-741F-43C0-AA89-0404E7D76AB1}.Release|x64.ActiveCfg = Release|Any CPU
+		{BC4D7421-741F-43C0-AA89-0404E7D76AB1}.Release|x64.Build.0 = Release|Any CPU
+		{BC4D7421-741F-43C0-AA89-0404E7D76AB1}.Release|x86.ActiveCfg = Release|Any CPU
+		{BC4D7421-741F-43C0-AA89-0404E7D76AB1}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BC4D7421-741F-43C0-AA89-0404E7D76AB1} = {68AFDF66-BD0B-45AF-811F-601675F199F0}
 	EndGlobalSection
 EndGlobal
